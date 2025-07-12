@@ -67,6 +67,7 @@ for i in range(nsteps):
     imu2_reading.append(Z[2,int(imu2_y/dx),int(imu2_x/dx)])
     imu3_reading.append(Z[2,int(imu3_y/dx),int(imu3_x/dx)])
 
+    # only draw every 5th time step (reduce for smoother but slower animation)
     if i % 5 == 0:
         mesh.set_array(Z[2].ravel())
         line1.set_data(np.linspace(0, (len(imu1_reading)-1)*dt, len(imu1_reading)), imu1_reading)
