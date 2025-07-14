@@ -13,7 +13,6 @@ Z[1,130,20:100] = 0
 Z[1,130,20:100] *= 0.8
 ```
 Can adjust any of the starting conditions to change the simulation like `L_x`, `c` or `imu1_x`
-IMUs are displayed as black squares on plot surface
 Can also adjust size and location of pulse and also frame rate of simulation.
 
 Black dots on plot are IMUs.
