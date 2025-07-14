@@ -1,6 +1,8 @@
 # 2D_Wave_Simulation
 Simulates a 2D (Gaussian pulse) wave and the readings of three IMUs around it in real time.
 
+And then uses the data from the IMUs to try and figure out the location of origin of the pulse (by TDoA).
+
 Can also simulate obstacles with varying levels of absorption (uncomment line below extra boundary conditions)
 ```python
 #obstacle
