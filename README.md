@@ -16,6 +16,8 @@ Can adjust any of the starting conditions to change the simulation like `L_x`, `
 Can also adjust size and location of pulse and also frame rate of simulation.
 
 Black dots on plot are IMUs.
+Fig1, 3 and 4 are of simulation with resistance upto boundary, 
+Fig2 is of simulation without resistance after reflecting off boundary
 
 ![Wave_Simulation](https://github.com/user-attachments/assets/ac7f2b52-2220-4f33-a0f4-5e055c300d61)
 
