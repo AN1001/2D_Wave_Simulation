@@ -2,6 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib import cm
+from scipy.optimize import minimize
+from TDoA import extract_peak, find_center
+
 plt.ion() #possibly needed for macos
 fig, (ax1, ax2, ax3, ax4) = plt.subplots(1, 4, figsize=(12, 5))
 
@@ -77,3 +80,10 @@ for i in range(nsteps):
         plt.pause(0.001)
 
 input("Simulation complete, type any character to end program > ")
+
+imu1 = [imu1_x, imu1_y, extract_peak(imu1_reading, dt)]
+imu2 = [imu2_x, imu2_y, extract_peak(imu2_reading, dt)]
+imu3 = [imu3_x, imu3_y, extract_peak(imu3_reading, dt)]
+
+center = find_center(imu1, imu2, imu3, c)
+print(f'Pulse originated from {center}')
