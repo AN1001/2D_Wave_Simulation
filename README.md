@@ -16,6 +16,8 @@ Can adjust any of the starting conditions to change the simulation like `L_x`, `
 IMUs are displayed as black squares on plot surface
 Can also adjust size and location of pulse and also frame rate of simulation.
 
+![Wave_Simulation](https://github.com/user-attachments/assets/3bf7bc81-c1a8-4514-b612-9d574ecb52ed)
+
 <img width="2392" height="990" alt="Simulation Picture" src="https://github.com/user-attachments/assets/edd50539-1375-4b29-807d-8d9bc902b284" />
 <img width="2380" height="944" alt="Simulation Picture" src="https://github.com/user-attachments/assets/072adcac-ca05-4032-8dbe-c66e69892fe7" />
 <img width="2388" height="982" alt="Screenshot 2025-07-12 at 18 42 37" src="https://github.com/user-attachments/assets/20dcb3bd-fafd-4470-bb69-56549ac1c2b6" />
